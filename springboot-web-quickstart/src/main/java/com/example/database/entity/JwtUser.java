@@ -7,12 +7,4 @@ import lombok.Data;
 public class JwtUser {
     private String username;
     private String password;
-
-    public JwtUser() {
-    }
-
-    public JwtUser(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
 }

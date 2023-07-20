@@ -27,9 +27,23 @@ public class JwtUtil {
 
     //解析token
     public static Claims getClaimsToken(String token) {
-        return Jwts.parser()
-                .setSigningKey(secret)  //传进密钥
-                .parseClaimsJws(token)
-                .getBody();
+        try {
+            return Jwts.parser()
+                    .setSigningKey(secret)  //传进密钥
+                    .parseClaimsJws(token)
+                    .getBody();
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    //判断令牌是否有效
+    public static boolean validateToken(String token) {
+        try {
+            Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
