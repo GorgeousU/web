@@ -1,9 +1,9 @@
 package com.example.util;
 
+
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Date;
 
@@ -28,23 +28,10 @@ public class JwtUtil {
 
     //解析token
     public static Claims getClaimsToken(String token) {
-        try {
-            return Jwts.parser()
-                    .setSigningKey(secret)  //传进密钥
-                    .parseClaimsJws(token)
-                    .getBody();
-        } catch (Exception e) {
-            return null;
-        }
-    }
-
-    //判断令牌是否有效
-    public static boolean validateToken(String token) {
-        try {
-            Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
+        return Jwts.parser()
+                .setSigningKey(secret)  //传进密钥
+                .parseClaimsJws(token)
+                .getBody();
     }
 }
+

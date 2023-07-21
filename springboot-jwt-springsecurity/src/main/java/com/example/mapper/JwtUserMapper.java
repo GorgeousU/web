@@ -5,5 +5,5 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface JwtUserMapper {
-    JwtUser selectByName(String username);
+    JwtUser login(JwtUser jwtUser);
 }

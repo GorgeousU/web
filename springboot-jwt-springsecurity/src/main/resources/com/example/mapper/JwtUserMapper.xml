@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mapper.JwtUserMapper">
-    <select id="selectByName" resultType="com.example.entity.JwtUser">
+    <select id="login" resultType="com.example.entity.JwtUser">
         SELECT * FROM users WHERE username = #{username}
     </select>
 
