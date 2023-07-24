@@ -18,7 +18,8 @@ public class WebConfig implements WebMvcConfigurer {
         //排除拦截，除了登录，其他都拦截
         registry.addInterceptor(jwtInterceptor)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/test/login");
+                .excludePathPatterns("/test/login")
+                .excludePathPatterns("/test/logout");
 
     }
 }
