@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.UserMapper">
+    <select id="selectAll" resultType="com.example.entity.User">
+        SELECT * FROM stu
+    </select>
+    <select id="selectById" resultType="com.example.entity.User">
+        SELECT * FROM stu WHERE id = #{id}
+    </select>
+    <insert id="insert">
+        INSERT INTO stu VALUES(#{id},#{name},#{age},#{classname},#{sal},#{wage})
+    </insert>
+    <update id="update">
+        UPDATE stu SET name=#{name},age=#{age},classname=#{classname},sal=#{sal},wage=#{wage} WHERE id=#{id}
+    </update>
+    <delete id="delete">
+        DELETE FROM stu WHERE id=#{id}
+    </delete>
+</mapper>
