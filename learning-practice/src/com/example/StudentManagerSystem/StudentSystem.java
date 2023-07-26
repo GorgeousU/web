@@ -19,12 +19,12 @@ public class StudentSystem {
             String choose = sc.next();
 
             switch (choose){
-                case "1" -> addStudent(list);
-                case "2" -> deleteStudent(list);
-                case "3" -> amendStudent(list);
-                case "4" -> inquireStudent(list);
-                case "5" -> {System.out.println("退出: ");break label1;}//退出while循环
-                default  -> System.out.println("没有这个选项");
+                case "1" : addStudent(list);
+                case "2" : deleteStudent(list);
+                case "3" : amendStudent(list);
+                case "4" : inquireStudent(list);
+                case "5" : {System.out.println("退出: ");break label1;}//退出while循环
+                default  : System.out.println("没有这个选项");
             }
         }
 
