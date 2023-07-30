@@ -10,10 +10,10 @@
         SELECT * FROM stu WHERE id = #{id}
     </select>
     <insert id="insert">
-        INSERT INTO stu VALUES(#{id},#{name},#{age},#{classname},#{sal},#{wage})
+        INSERT INTO stu VALUES(#{id},#{name},#{age})
     </insert>
     <update id="update">
-        UPDATE stu SET name=#{name},age=#{age},classname=#{classname},sal=#{sal},wage=#{wage} WHERE id=#{id}
+        UPDATE stu SET name=#{name},age=#{age} WHERE id=#{id}
     </update>
     <delete id="delete">
         DELETE FROM stu WHERE id=#{id}
