@@ -1,5 +1,6 @@
 package com.algorithm.search;
 
+//插值查找
 public class InterpolationSearch {
     public static int interpolationSearch(int[] arr,int target){
         int left = 0;
