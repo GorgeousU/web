@@ -109,7 +109,7 @@ public class LinkedList {
         ListNode de1 = cur.next;  //令要删除的节点为de1
         cur.next = de1.next;  //删除节点值key的节点
     }
-    public ListNode removeAllkey(int key){ //删除所有值为key的节点
+    public ListNode removeAllKey(int key){ //删除所有值为key的节点
         if(this.head == null){  //判断是否空
             return null;
         }
