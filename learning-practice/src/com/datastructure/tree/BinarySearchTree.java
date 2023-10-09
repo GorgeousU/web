@@ -62,10 +62,10 @@ public class BinarySearchTree<Key extends Comparable<Key>,Value> {
     }
 
     // 删除
-    public void delete(Key key) {
+    public void delete(Key key) {   // 删除树中key对应的value
         root = delete(root,key);
     }
-    private Node delete(Node node,Key key) {
+    private Node delete(Node node,Key key) {  // 删除指定树node中的key对应的value，并返回删除后的新树
         if (node == null) {
             return null;
         }
@@ -74,8 +74,12 @@ public class BinarySearchTree<Key extends Comparable<Key>,Value> {
             node.right = delete(node.right,key);
         } else if (cmp < 0) {
             node.left = delete(node.left,key);
-        } else {
-            N--;
+        } else {  // 如果key等于x结点的键，完成真正的删除结点动作，要删除的结点就是x
+            N--;  // 让元素个数-1
+            /* 需要找到右子树中的最小节点（即右子树的最左节点），
+            * 将其键值和值复制到要删除的节点中，
+            * 然后递归地删除这个最小节点，并将删除后的右子树设置为新的子树
+            * */
             if (node.right == null) {
                 return node.left;
             } else if (node.left == null) {
@@ -89,12 +93,19 @@ public class BinarySearchTree<Key extends Comparable<Key>,Value> {
         }
         return node;
     }
+    /** 寻找最小节点
+    * 逻辑是不断检查当前节点的左子节点是否为空，若为空则返回当前节点作为最小节点，否则递归地向左子节点寻找
+    * */
     private Node findMin(Node node) {
         if (node.left == null) {
             return node;
         }
         return findMin(node.left);
     }
+    /** 删除最小节点
+    * 逻辑是如果当前节点的左子节点为空，则直接返回右子节点作为新的子树根节点；
+    * 否则递归调用 deleteMin() 方法来删除当前节点的左子树中的最小节点，并将删除后的子树重新连接到当前节点的左子节点
+    * */
     private Node deleteMin(Node node) {
         if (node.left == null) {
             return node.right;
