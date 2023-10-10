@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a9eb74-ed24-4a20-9efb-a9218ae09aee" name="更改" comment="修改远程仓库后，添加springboot test依赖，更正代码">
+    <list default="true" id="b7a9eb74-ed24-4a20-9efb-a9218ae09aee" name="更改" comment="移动位置">
       <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
@@ -68,6 +68,12 @@
       <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/com/example/UserServiceApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/com/example/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/example/NacosClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/com/example/NacosClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/example/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/com/example/controller/ServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/target/classes/com/example/NacosConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/target/classes/com/example/NacosConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/target/classes/controller/ConsumerController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/mapper/JwtUserMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/service/JwtUserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/JwtUserMapper.xml" beforeDir="false" />
@@ -109,7 +115,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
     <configuration name="NacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.NacosClientApplication" />
@@ -123,8 +136,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.NacosConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConsumerApplication" />
         <item itemvalue="Spring Boot.NacosClientApplication" />
       </list>
     </recent_temporary>
@@ -138,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696905288096</updated>
       <workItem from="1696905288945" duration="1290000" />
-      <workItem from="1696906590269" duration="335000" />
+      <workItem from="1696906590269" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -172,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696906738592</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="移动位置">
+      <option name="closed" value="true" />
+      <created>1696907104414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696907104414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +227,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <MESSAGE value="修改远程仓库后，添加springboot test依赖，更正代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改远程仓库后，添加springboot test依赖，更正代码" />
+    <MESSAGE value="移动位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动位置" />
   </component>
 </project>
