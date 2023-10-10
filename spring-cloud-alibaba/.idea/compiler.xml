@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-client" />
+        <module name="nacos-gateway" />
         <module name="nacos-consumer" />
+        <module name="nacos-client" />
+        <module name="spring-cloud-gateway-nacos" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-gateway-nacos" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

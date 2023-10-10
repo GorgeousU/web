@@ -1,0 +1,19 @@
+server:
+  port: 8120
+
+spring:
+  application:
+    name: nacos-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: nacos-client
+          uri: lb://nacos-client
+          predicates:
+            - Path=/provider/**
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

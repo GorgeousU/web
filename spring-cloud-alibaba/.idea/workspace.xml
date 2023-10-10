@@ -4,84 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a9eb74-ed24-4a20-9efb-a9218ae09aee" name="更改" comment="移动位置">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/projects.iml" afterDir="false" />
+    <list default="true" id="b7a9eb74-ed24-4a20-9efb-a9218ae09aee" name="更改" comment="测试">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client/src/main/java/com/example/controller/EchoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-gateway/src/main/java/com/example/NacosGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-gateway/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/controller/UserController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/entity/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/resources/static/picture1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/java/com/example/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/test/java/com/example/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/com/example/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/main/java/com/example/OrderService2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/main/java/com/example/configuration/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/main/java/com/example/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/main/java/com/example/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/src/test/java/com/example/OrderService2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/target/classes/com/example/OrderService2Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/target/classes/com/example/configuration/RestTemplateConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/target/classes/com/example/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/target/classes/com/example/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/src/main/java/com/example/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/src/main/java/com/example/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/src/main/java/com/example/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/src/test/java/com/example/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/target/classes/com/example/OrderServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/target/classes/com/example/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service/target/classes/com/example/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/springcloud-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/src/main/java/com/example/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/src/main/java/com/example/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/src/test/java/com/example/UserServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/com/example/UserServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/user-service/target/classes/com/example/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-test2/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-test2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/example/NacosClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/com/example/NacosClientApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/example/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-client/target/classes/com/example/controller/ServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/target/classes/com/example/NacosConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/target/classes/com/example/NacosConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/target/classes/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/mapper/JwtUserMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/service/JwtUserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/JwtUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/java/com/example/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/test/java/com/example/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/com/example/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -98,20 +66,28 @@
     </option>
   </component>
   <component name="ProjectId" id="2WYMv6AV8lkat4YZbtE95gfu3yb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/hanlp-test",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/springcloud-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "e05283164c0ca1700af3ab45063231d8",
+    "spring.configuration.checksum": "384a44b949f737540a64a6eccb8f5e72",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -122,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.NacosGatewayApplication">
     <configuration name="NacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nacos-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.NacosClientApplication" />
@@ -149,10 +125,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.NacosGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosConsumerApplication" />
+        <item itemvalue="Spring Boot.NacosGatewayApplication" />
         <item itemvalue="Spring Boot.NacosClientApplication" />
+        <item itemvalue="Spring Boot.NacosConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696905288096</updated>
       <workItem from="1696905288945" duration="1290000" />
-      <workItem from="1696906590269" duration="653000" />
+      <workItem from="1696906590269" duration="6780000" />
+      <workItem from="1696916492322" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -207,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696907104414</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <option name="closed" value="true" />
+      <created>1696907264029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696907264029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +227,7 @@
     <MESSAGE value="11" />
     <MESSAGE value="修改远程仓库后，添加springboot test依赖，更正代码" />
     <MESSAGE value="移动位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动位置" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
 </project>
