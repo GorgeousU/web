@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5b5d1b5-c116-422d-8cfb-affc10d07663" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/src/main/java/com/example/NacosClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/src/main/java/com/example/controller/ServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/src/test/java/com/example/NacosClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/target/classes/com/example/NacosClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-client/target/classes/com/example/controller/ServiceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/src/main/java/com/example/NacosConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/src/main/java/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/src/test/java/com/example/NacosConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/target/classes/com/example/NacosConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-consumer/target/classes/controller/ConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/resources/static/picture1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/example/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/OrderService2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/configuration/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/test/java/com/example/OrderService2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/target/classes/com/example/OrderService2Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/target/classes/com/example/configuration/RestTemplateConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/target/classes/com/example/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/target/classes/com/example/service/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/example/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/OrderServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/example/UserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/UserServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/mapper/JwtUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/service/JwtUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/JwtUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-jwt/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web-quickstart/src/main/java/com/example/database/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web-quickstart/src/main/java/com/example/database/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web-quickstart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-web-quickstart/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\apache-maven-3.9.3\.m\repository" />
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2V4F3HND60QJBmJQ06jBCco0fkg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/spring-cloud-alibaba",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "0f5fa4674abe209af2aa2145ddec007f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderService2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.OrderService2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8726" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderService2Application" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication-2" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c5b5d1b5-c116-422d-8cfb-affc10d07663" name="更改" comment="" />
+      <created>1694087245363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694087245363</updated>
+      <workItem from="1694087246362" duration="5811000" />
+      <workItem from="1694694769916" duration="57000" />
+      <workItem from="1694695059595" duration="741000" />
+      <workItem from="1694934158424" duration="3974000" />
+      <workItem from="1695015097877" duration="12908000" />
+      <workItem from="1695037707176" duration="7780000" />
+      <workItem from="1695085410531" duration="16438000" />
+      <workItem from="1695557071859" duration="4910000" />
+      <workItem from="1695565698611" duration="609000" />
+      <workItem from="1695566806477" duration="30000" />
+      <workItem from="1695568692737" duration="123000" />
+      <workItem from="1695649045749" duration="1081000" />
+      <workItem from="1695689999008" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
