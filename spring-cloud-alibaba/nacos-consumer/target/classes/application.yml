@@ -1,8 +1,8 @@
 server:
-  port: 8020
+  port: 8030
 spring:
   application:
-    name: nacos-client
+    name: nacos-consumer
   cloud:
     nacos:
       discovery:
