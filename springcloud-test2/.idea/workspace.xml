@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6dd7dedb-29b4-4144-9c82-2e66e11c9b60" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/resources/static/picture1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/OrderService2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/configuration/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/java/com/example/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/nacos-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/mapper/JwtUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/service/JwtUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/JwtUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/java/com/example/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/test/java/com/example/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/com/example/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\apache-maven-3.9.3\.m\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.9.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.9.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2WYrvcVv0s0y3jxoWPwRDUIq2p0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/springcloud-test2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "a24e3cc2ae9cdd8c7daf71d928ca64c7",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderService2Application">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderService2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.OrderService2Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.OrderServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8726" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UserServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserServiceApplication-2" />
+      <item itemvalue="Spring Boot.OrderService2Application" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderService2Application" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6dd7dedb-29b4-4144-9c82-2e66e11c9b60" name="更改" comment="" />
+      <created>1696920587239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696920587239</updated>
+      <workItem from="1696920588267" duration="1039000" />
+      <workItem from="1696921636070" duration="3144000" />
+      <workItem from="1696927717544" duration="1683000" />
+      <workItem from="1697115333773" duration="2252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
