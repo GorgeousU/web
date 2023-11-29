@@ -7,37 +7,14 @@
     <list default="true" id="b7a9eb74-ed24-4a20-9efb-a9218ae09aee" name="更改" comment="测试">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-mysql/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-client/src/main/java/com/example/controller/EchoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-gateway/src/main/java/com/example/NacosGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-gateway/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/controller/UserController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/entity/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-mybatisplus/src/main/resources/static/picture1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test/order-service-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test2/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-test2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/mapper/JwtUserMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/java/com/example/service/JwtUserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-jwt-springsecurity/src/main/resources/com/example/mapper/JwtUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/java/com/example/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/src/test/java/com/example/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/eureka-server/target/classes/com/example/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-test/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/springcloud-test",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2023.1.4/projects/spring-docker-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,6 +134,9 @@
       <workItem from="1696905288945" duration="1290000" />
       <workItem from="1696906590269" duration="6780000" />
       <workItem from="1696916492322" duration="3517000" />
+      <workItem from="1698669364961" duration="1825000" />
+      <workItem from="1698678068971" duration="1167000" />
+      <workItem from="1699500032753" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
