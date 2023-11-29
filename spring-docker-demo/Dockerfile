@@ -1,6 +1,9 @@
+FROM maven:3.9.4-jdk-8 as builder 
+COPY . /app
+WORKDIR /app
+RUN mvn clean package dockerfile:build
+
 FROM openjdk:8-jdk-alpine
-VOLUME /tmp
+COPY --from=builder /app/target/*.jar /app/app.jar
 EXPOSE 8282
-ARG JAR_FILE
-ADD target/${JAR_FILE} /docker/projects/app.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/docker/projects/app.jar"]
+ENTRYPOINT ["java","-jar","/app/app.jar"]
