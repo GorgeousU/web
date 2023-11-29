@@ -8,3 +8,5 @@ steps:
     commands:
       - echo Hello
       - echo Drone
+    when:
+      event: push
