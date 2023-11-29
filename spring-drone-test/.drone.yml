@@ -10,3 +10,4 @@ steps:
       - echo Drone
     when:
       event: push
+      branch: master
