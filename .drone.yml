@@ -13,11 +13,11 @@ steps:
     cd spring-drone-test
     $MAVEN_HOME/bin/mvn -v
     $MAVEN_HOME/bin/mvn clean package -DskipTests=true
-    cp target/*.jar /root/testDrone
+    cp target/*.jar /opt/app
     fi
   when:
     event: push
 volumns:
   - name: maven-build
     host:
-      path: /root/testDrone
+      path: /opt/app
