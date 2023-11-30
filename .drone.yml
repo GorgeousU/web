@@ -4,7 +4,7 @@ name: default
 steps:
 - name: build
   image: maven:3.8.5-openjdk-8
-  volumns:
+  volumes:
     - name: maven-build
       path: /root/.m2
     - name: jar-build
@@ -26,7 +26,7 @@ steps:
       fi
   when:
     event: push
-volumns:
+volumes:
   - name: maven-build
     host:
       path: /opt/drone/m2-cache
