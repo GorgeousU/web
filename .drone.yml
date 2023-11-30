@@ -15,8 +15,10 @@ steps:
       cd spring-drone-test
       $MAVEN_HOME/bin/mvn -v
       $MAVEN_HOME/bin/mvn clean package -DskipTests=true
+      ls /opt/app
       cp target/*.jar /opt/app
       cp Dockerfile /opt/app
+      ls /opt/app
       cd /opt/app
       docker build -t spring-drone-test:latest
       docker rm -f testDrone
