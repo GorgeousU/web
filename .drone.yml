@@ -2,8 +2,22 @@ kind: pipeline
 type: docker
 name: default
 steps:
-- name: greeting
-  image: alpine
+- name: build
+  image: maven:3.8.5-openjdk-8
+  volumns:
+    - name: maven-build
+      path: /root/testDrone
   commands: 
-  - echo hello
-  - echo world
+  - |
+    if [ -d spring-drone-test ]; then
+    cd spring-drone-test
+    $MAVEN_HOME/bin/mvn -v
+    $MAVEN_HOME/bin/mvn clean package -DskipTests=true
+    cp target/*.jar /opt/app
+    fi
+  when:
+    event: push
+volumns:
+  - name: maven-build
+    host:
+      path: /opt/app
