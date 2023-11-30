@@ -3,47 +3,44 @@ type: docker
 name: default
 steps:
   - name: build-jar
-    pull: if-not-exists
+    pull: if-not-exists          # 如果镜像不存在则拉取
     image: maven:3.8.5-openjdk-8
-    volumes:
+    volumes:                     # 将容器内目录挂载到宿主机，需要仓库开启Trusted设置
       - name: maven-build
-        path: /root/.m2
+        path: /root/.m2          # 将maven下载依赖的目录挂载出来
       - name: jar-build
-        path: /opt/app
+        path: /opt/app           # 将应用打包好的jar包挂载出来
     commands: 
-      - |
-        if [ -d spring-drone-test ]; then
-        cd spring-drone-test
-        $MAVEN_HOME/bin/mvn -v
-        $MAVEN_HOME/bin/mvn clean package -DskipTests=true
-        ls /opt/app
-        cp target/*.jar /opt/app
-        cp Dockerfile /opt/app
+      - |                        # 执行脚本
+        if [ -d spring-drone-test ]; then                   # 如果spring-drone-test为目录，则为true
+        cd spring-drone-test                                # 切换到spring-drone-test目录
+        $MAVEN_HOME/bin/mvn -v                              # maven版本信息
+        $MAVEN_HOME/bin/mvn clean package -DskipTests=true  # 打包
+        cp target/*.jar /opt/app                            # 将打包好的jar包复制到挂载的目录
+        cp Dockerfile /opt/app                              # 将dockerfile文件也复制到与jar包同一目录中
         ls /opt/app
         fi
-    when:
-      event: push
   - name: build-image
     pull: if-not-exists
-    image: appleboy/drone-ssh
+    image: appleboy/drone-ssh                # ssh连接到drone的宿主机
     settings:
       host: 
-        from_secret: DRONE_SERVER_IP
+        from_secret: DRONE_SERVER_IP         # 从drone中的secret读取宿主机地址
       username: hadoop
       password:
-        from_secret: DRONE_SERVER_PASSWORD
+        from_secret: DRONE_SERVER_PASSWORD   # 从secret中读取宿主机登录密码
       port: 22
       script:
         - cd /opt/app
         - ls
-        - docker build -t spring-drone-test:latest .
-        - docker rm -f testDrone
-        - docker run --name testDrone -d -p 8088:8088 spring-drone-test:latest
+        - docker build -t spring-drone-test:latest .                           # 构建镜像
+        - docker rm -f testDrone                                               # 根据name删除容器，防止端口冲突
+        - docker run --name testDrone -d -p 8088:8088 spring-drone-test:latest # 运行
     
 volumes:
-  - name: maven-build
+  - name: maven-build             
     host:
-      path: /opt/drone/m2-cache
+      path: /opt/drone/m2-cache    # 宿主机上的maven下载依赖的目录，需要创建
   - name: jar-build
     host:
-      path: /opt/app
+      path: /opt/app               # 宿主机上的jar包目录，也需要创建
