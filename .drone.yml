@@ -2,22 +2,48 @@ kind: pipeline
 type: docker
 name: default
 steps:
-- name: build
-  image: maven:3.8.5-openjdk-8
-  volumns:
-    - name: maven-build
-      path: /root/.m2
-  commands: 
-  - |
-    if [ -d spring-drone-test ]; then
-    cd spring-drone-test
-    $MAVEN_HOME/bin/mvn -v
-    $MAVEN_HOME/bin/mvn clean package -DskipTests=true
-    cp target/*.jar /opt/app
-    fi
-  when:
-    event: push
-volumns:
+  - name: build-jar
+    pull: if-not-exists
+    image: maven:3.8.5-openjdk-8
+    volumes:
+      - name: maven-build
+        path: /root/.m2
+      - name: jar-build
+        path: /opt/app
+    commands: 
+      - |
+        if [ -d spring-drone-test ]; then
+        cd spring-drone-test
+        $MAVEN_HOME/bin/mvn -v
+        $MAVEN_HOME/bin/mvn clean package -DskipTests=true
+        ls /opt/app
+        cp target/*.jar /opt/app
+        cp Dockerfile /opt/app
+        ls /opt/app
+        fi
+    when:
+      event: push
+  - name: build-image
+    pull: if-not-exists
+    image: appleboy/drone-ssh
+    settings:
+      host: 
+        from_secret: DRONE_SERVER_IP
+      username: hadoop
+      password:
+        from_secret: DRONE_SERVER_PASSWORD
+      port: 22
+      script:
+        - cd /opt/app
+        - ls
+        - docker build -t spring-drone-test:latest .
+        - docker rm -f testDrone
+        - docker run --name testDrone -d -p 8088:8088 spring-drone-test:latest
+    
+volumes:
   - name: maven-build
+    host:
+      path: /opt/drone/m2-cache
+  - name: jar-build
     host:
       path: /opt/app
