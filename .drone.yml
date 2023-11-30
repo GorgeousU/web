@@ -9,7 +9,7 @@ steps:
       path: /root/testDrone
   commands: 
   - |
-    if [-d spring-drone-test]; then
+    if [ -d spring-drone-test ]; then
     cd spring-drone-test
     $MAVEN_HOME/bin/mvn -v
     $MAVEN_HOME/bin/mvn clean package -DskipTests=true
