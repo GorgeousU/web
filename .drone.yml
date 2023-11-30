@@ -3,17 +3,21 @@ type: docker
 name: default
 steps:
 - name: build
-  image: docker:23
+  image: maven:3.9.4-openjdk-8
+  volumns:
+    - name: maven-build
+      path: /root/testDrone
   commands: 
   - |
     if [-d spring-drone-test]; then
     cd spring-drone-test
-    ./.drone.yml
+    $MAVEN_HOME/bin/mvn -v
+    $MAVEN_HOME/bin/mvn clean package -DskipTests=true
+    cp target/*.jar /root/testDrone
     fi
   when:
     event: push
-- name: greeting
-  image: alpine
-  commands: 
-  - echo hello
-  - echo world
+volumns:
+  - name: maven-build
+    host:
+      path: /root/testDrone
