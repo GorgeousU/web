@@ -36,7 +36,7 @@ steps:
       script:
         - cd /opt/app
         - ls
-        - docker build -t spring-drone-test:latest
+        - docker build -t spring-drone-test:latest .
         - docker rm -f testDrone
         - docker run --name testDrone -d -p 8088:8088 spring-drone-test:latest
     
